@@ -12,5 +12,9 @@ git config --global user.email "luis@gmail.com"
 git config --global user.name "luisroca"
 git log -> ver historial de commits
 
+
+//moverse entre ramas(branch)
+
+
 abc
 a
