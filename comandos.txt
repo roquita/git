@@ -1,0 +1,6 @@
+Ubicarse dentro del folder.
+git init -> inicializar git
+git add index.html -> agregar index.html al area de trabajo
+git commid -> hacer un commit desde el area de trabajo
+git config --global user.email "luis@gmail.com"
+git config --global user.name "luisroca"
