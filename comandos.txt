@@ -16,5 +16,4 @@ git log -> ver historial de commits
 //moverse entre ramas(branch)
 
 
-abc
-a
+jkjj
