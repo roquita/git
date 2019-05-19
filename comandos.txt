@@ -10,13 +10,20 @@ git reset HEAD index.html ->deshace el ultimo git add del archivo
 git commit -> hacer un commit desde el area de trabajo
 	editor en linea de comandos: "texto"-ESC-:wq-ENTER
 git commit --amend ->reescribir el ultimo commit
-git reset <#commit> -> regresar al estado del commit señalado(los cambios quedan 		visibles en git status)
+git reset <#commit> -> regresar al estado del commit señalado(los cambios quedan 	visibles en el working directory-rojito).
+git reset --soft <#commit> ->regresa al estado del commit señalado(los cambios quedan visibles en verdecito).
+git reset --hard <#commit> ->regresa al estado del commit señalado(todos los cambios son 	 	completamente eliminados)  
 git config --global user.email "luis@gmail.com"
 git config --global user.name "luisroca"
 git log -> ver historial de commits
 git log --oneline ->ver cada commit en una linea
-
-
+git log --oneline --decorate -> ver los commits y las ramas
+git diff <#commit1> <#commit2> -> ver la diferencia entre dos commits
+git diff HEAD~2 HEAD -> ver la diferencia entre los dos commits señalados
+git revert HEAD -> se agrega un commit adicional para revertir los cambios en el commit 		señalado(no elimina ningun commit).
+git revert --no-commit HEAD -> deshace el commit señalado(verdecito)
+git revert --continue ->confirmar revert
+git revert --abort -> cancelar revert
 //moverse entre ramas(branch)
 
 
