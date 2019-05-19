@@ -4,13 +4,17 @@ ls -> mostrar los archivos dentro del directorio respectivo
 cd abc/a/b/c-> moverse entre directorios
 git init -> inicializar git
 git diff index.html -> ver cambios antes de agregar al area de trabajo
+git checkout -- index.html -> elimina la ultima modificacion realizada
 git add index.html -> agregar index.html al area de trabajo
+git reset HEAD index.html ->deshace el ultimo git add del archivo
 git commit -> hacer un commit desde el area de trabajo
-  editor en linea de comandos: "texto"-ESC-:wq-ENTER
-git checkout -- index.html -> opuesto a git commit
+	editor en linea de comandos: "texto"-ESC-:wq-ENTER
+git commit --amend ->reescribir el ultimo commit
+git reset <#commit> -> regresar al estado del commit señalado(los cambios quedan 		visibles en git status)
 git config --global user.email "luis@gmail.com"
 git config --global user.name "luisroca"
 git log -> ver historial de commits
+git log --oneline ->ver cada commit en una linea
 
 
 //moverse entre ramas(branch)
