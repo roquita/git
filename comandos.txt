@@ -18,6 +18,7 @@ git config --global user.name "luisroca"
 git log -> ver historial de commits
 git log --oneline ->ver cada commit en una linea
 git log --oneline --decorate -> ver los commits y las ramas
+git log --oneline --all --graph -> ver todas las ramas en diagrama de ramas.
 git diff <#commit1> <#commit2> -> ver la diferencia entre dos commits
 git diff HEAD~2 HEAD -> ver la diferencia entre los dos commits se�alados
 git revert HEAD -> se agrega un commit adicional para revertir los cambios en el commit 		se�alado(no elimina ningun commit).
@@ -33,6 +34,7 @@ git checkout rama_2 -> moverse a rama rama_2
 git checkout -b rama_2 -> crear rama y ubicarse en ella
 git branch -m rama_2 new_name -> cambiar nombre a rama_2
 git branch -d rama_2 -> eliminar rama_2
+git branch -D rama_2 -> eliminar rama_2 forzosamente
 //remotes
 git remote add origin https://github.com/roquita/git2 -> agregar un nuevo remoto
 git remote -v  -> verificar remoto
