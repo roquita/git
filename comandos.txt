@@ -39,3 +39,5 @@ git remote -v  -> verificar remoto
 git remote rename origin destination ->cambiar nombre a remoto
 git remote rm destination -> eliminar remoto
 git push origin master -> upload a origin desde master
+
+modificacion en user2
