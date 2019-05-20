@@ -10,28 +10,29 @@ git reset HEAD index.html ->deshace el ultimo git add del archivo
 git commit -> hacer un commit desde el area de trabajo
 	editor en linea de comandos: "texto"-ESC-:wq-ENTER
 git commit --amend ->reescribir el ultimo commit
-git reset <#commit> -> regresar al estado del commit señalado(los cambios quedan 	visibles en el working directory-rojito).
-git reset --soft <#commit> ->regresa al estado del commit señalado(los cambios quedan visibles en verdecito).
-git reset --hard <#commit> ->regresa al estado del commit señalado(todos los cambios son 	 	completamente eliminados)  
+git reset <#commit> -> regresar al estado del commit seï¿½alado(los cambios quedan 	visibles en el working directory-rojito).
+git reset --soft <#commit> ->regresa al estado del commit seï¿½alado(los cambios quedan visibles en verdecito).
+git reset --hard <#commit> ->regresa al estado del commit seï¿½alado(todos los cambios son 	 	completamente eliminados)
 git config --global user.email "luis@gmail.com"
 git config --global user.name "luisroca"
 git log -> ver historial de commits
 git log --oneline ->ver cada commit en una linea
 git log --oneline --decorate -> ver los commits y las ramas
 git diff <#commit1> <#commit2> -> ver la diferencia entre dos commits
-git diff HEAD~2 HEAD -> ver la diferencia entre los dos commits señalados
-git revert HEAD -> se agrega un commit adicional para revertir los cambios en el commit 		señalado(no elimina ningun commit).
-git revert --no-commit HEAD -> deshace el commit señalado(verdecito)
+git diff HEAD~2 HEAD -> ver la diferencia entre los dos commits seï¿½alados
+git revert HEAD -> se agrega un commit adicional para revertir los cambios en el commit 		seï¿½alado(no elimina ningun commit).
+git revert --no-commit HEAD -> deshace el commit seï¿½alado(verdecito)
 git revert --continue ->confirmar revert
 git revert --abort -> cancelar revert
 
 
 //moverse entre ramas(branch)
-
-
-
-
-
+git branch -> ver ramas disponibles y ubicacion actual
+git branch rama_2 -> crea una rama llamada rama_2
+git checkout rama_2 -> moverse a rama rama_2
+git checkout -b rama_2 -> crear rama y ubicarse en ella
+git branch -m rama_2 new_name -> cambiar nombre a rama_2
+git branch -d rama_2 -> eliminar rama_2
 //remotes
 git remote add origin https://github.com/roquita/git2 -> agregar un nuevo remoto
 git remote -v  -> verificar remoto
