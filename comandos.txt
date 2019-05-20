@@ -1,3 +1,5 @@
+www.makigas.com
+
 Ubicarse dentro del folder.
 pwd -> ubicacion actual en directorios
 ls -> mostrar los archivos dentro del directorio respectivo
@@ -42,8 +44,6 @@ git remote rename origin destination ->cambiar nombre a remoto
 git remote rm destination -> eliminar remoto
 git push origin master -> upload a origin desde master
 
-
-
-
-
-modificacion en user3
+//merge
+git merge user_3 -> fusionar user_3 con master
+git merge --abort -> deshacer una fusion cuando hay conflictos
