@@ -1,4 +1,4 @@
-www.makigas.com
+﻿www.makigas.com
 
 Ubicarse dentro del folder.
 pwd -> ubicacion actual en directorios
@@ -47,3 +47,14 @@ git push origin master -> upload a origin desde master
 //merge
 git merge user_3 -> fusionar user_3 con master
 git merge --abort -> deshacer una fusion cuando hay conflictos
+
+//alias
+git config --global alias.unstage 'reset HEAD --'    --> crear alias llamado unstage
+git config --gloabal --get-regexp alias  --> mostrar todos los alias
+git config --global --unset alias.lodag --> eliminar alias llamado lodag
+
+//tag
+git tag v0.2.0 -->agregar dicho tag  al commmit actual
+git tag v0.1.0 45fg89c -->agregar dicho tag al commit señalado 
+git checkout v0.1.0 -->ubicarse en ese tag de trabajo
+git checkout -b <new-branch-name> --> crear una nueva rama, despues de ubicarse en un tag de trabajo
